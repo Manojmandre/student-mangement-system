@@ -1,0 +1,149 @@
+<!DOCTYPE HTML>
+<!-- Website Template by freewebsitetemplates.com -->
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Services - Cardiology Website Template</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<!--[if IE 7]>
+		<link rel="stylesheet" href="css/ie7.css" type="text/css">
+	<![endif]-->
+    <style type="text/css">
+<!--
+.style1 {
+	color: #000000;
+	font-weight: bold;
+}
+-->
+    </style>
+</head>
+<body>
+	<div id="header">
+		<div>
+			<div>
+			
+				<a href="index.html" class="logo" style="line-height:100px; text-decoration:none; color:#FFFFFF; font-size:24px; margin-left:370px;">Student Allocation</a>
+			
+		  </div>
+			
+		</div>
+	</div>
+	<div id="body">
+		<div id="content">
+			<div id="sidebar">
+				<h3>Main Menu</h3>
+				<ul>
+					<li class="selected collapse">
+					 
+                      
+                      <li>
+								<a href="hr_home.jsp">Home</a>							</li>
+				  <li>
+								<a href="employeeinfo.html">Add New User</a>							</li>
+				  <li>
+								<a href="projetdescrition.html">Project Details</a></li>
+				        <li><a href="emp_leavel.jsp">Leave Application </a></li>
+                        <li><a href="client_info.html">Client Info</a></li>
+                        <li><a href="emp_traning.html">Training Details </a></li>
+                           <li><a href="emp_appraisal.html">Employee Apprasial </a></li>
+                              <li><a href="trainingresurse.html"> Training Resourse </a></li>
+                        <li><a href="changepass.html">Change Passwrod</a></li>
+                                    <li><a href="index.html">Logout</a></li>
+					             
+			       
+						      </ul>
+			</div>
+			<div id="section">
+<form  method="post" action="emp_leavel_save.jsp">
+  <div align="center">
+    <p>emp_leavel</p>
+    <table width="400" height="282" cellpadding="2" cellspacing="2">
+      <tr>
+        <th scope="col"><div align="left" class="style1">empid</div></th>
+        <th scope="col"><label>
+          <div align="left">
+            <input type="text" name="t1" id="t1" />
+            </div>
+        </label></th>
+      </tr>
+      <tr>
+        <td><span class="style1">applydate</span></td>
+        <td><label>
+          <input type="text" name="t2" id="t2" />
+        </label></td>
+      </tr>
+      <tr>
+        <td><span class="style1">leavesneeded</span></td>
+        <td><label>
+          <input type="text" name="t3" id="t3" />
+        </label></td>
+      </tr>
+      <tr>
+        <td><span class="style1">fromdate</span></td>
+        <td><label>
+          <input type="text" name="t4" id="t4" />
+        </label></td>
+      </tr>
+      <tr>
+        <td><span class="style1">reason</span></td>
+        <td><label>
+          <input type="text" name="t5" id="t5" />
+        </label></td>
+      </tr>
+      <tr>
+        <td><span class="style1">year</span></td>
+        <td><label>
+          <input type="text" name="t6" id="t6" />
+        </label></td>
+      </tr>
+    </table>
+    <p>
+      <label>
+      <input type="submit" name="button" id="button" value="Submit" />
+      </label>
+</p>
+  </div>
+</form>
+  <li></li>
+				</ul>
+		  </div>
+		</div>
+	</div>
+	<div id="footer">
+		<div>
+			<p>
+				Copyright &copy; <a href="index.html">Cardio Center</a>
+			</p>
+			<ul>
+				<li>
+					<a href="index.html">home</a>
+				</li>
+				<li>
+					<a href="about.html">about</a>
+				</li>
+				<li>
+					<a href="doctors.html">our doctors</a>
+				</li>
+				<li>
+					<a href="services.html">services</a>
+				</li>
+				<li>
+					<a href="forms.html">forms</a>
+				</li>
+				<li>
+					<a href="contact.html">contact</a>
+				</li>
+				<li>
+					<a href="blog.html">blog</a>
+				</li>
+			</ul>
+			<div>
+				<span>stay connected:</span>
+				<a href="http://freewebsitetemplates.com/go/facebook/" id="facebook">facebook</a>
+				<a href="http://freewebsitetemplates.com/go/twitter/" id="twitter">twitter</a>
+				<a href="http://freewebsitetemplates.com/go/googleplus/" id="googleplus">googleplus</a>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

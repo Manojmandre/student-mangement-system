@@ -1,0 +1,66 @@
+<html>
+<script>
+
+function minpass()
+{
+var ph=document.f1.T2.value
+if((ph.length)<6)
+{
+alert("Password must contain atleast 6 characters");
+documrnt.f1.T2.value="";
+documtnt.f1.T2.focus();
+return false;
+}
+else
+{
+document.f1.submit();
+}
+}
+
+</script>
+<head>
+<title>New Page 1</title>
+</head>
+
+<body background="flash/DISBK.jpg">
+
+<form method="POST"  name=f1 action="login.jsp">
+  
+  <p align="center">&nbsp;</p>
+  <table border="0" cellpadding="3" cellspacing="3" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber1">
+    <tr>
+      <td width="100%" colspan="2">
+      <p align="center"><b><u>
+      <font size="7" face="Monotype Corsiva" color="#800000">Login</font></u></b></td>
+    </tr>
+    <tr>
+      <td width="50%">&nbsp;</td>
+      <td width="50%">&nbsp;</td>
+    </tr>
+    <tr>
+      <td width="50%">
+      <p align="right"><b><i>
+      <font size="6" face="Times New Roman">Username:</font></i></b></td>
+      <td width="50%"><input type="text" name="T1" size="20"></td>
+    </tr>
+    <tr>
+      <td width="50%">&nbsp;</td>
+      <td width="50%">&nbsp;</td>
+    </tr>
+    <tr>
+      <td width="50%">
+      <p align="right"><i><b>
+      <font size="6" face="Monotype Corsiva">Password:</font></b></i></td>
+      <td width="50%"><input type="password" name="T2" size="20" onblur=minpass()></td>
+    </tr>
+  </table>
+  <p align="center">&nbsp;</p>
+  <p align="center">&nbsp;</p>
+  <p align="center">
+  <input type="button" value="    OK    " name="B1" style="font-weight: bold">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <input type="reset" value="CLEAR" name="B2" style="font-weight: bold"></p>
+</form>
+
+</body>
+
+</html>
